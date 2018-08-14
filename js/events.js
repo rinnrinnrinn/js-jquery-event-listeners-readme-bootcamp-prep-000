@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
 
-  $(document).on('click', function(key) {
+  $(document).on('p', function(click) {
   if (key.which == 'p'){
     alert('Hey!');
   }
