@@ -1,12 +1,8 @@
 //define functions here
 function getIt() {
-
-  $(document).on('p', function(click) {
-  if (key.which == 'p'){
+  $("p").on('click', function(key) {
     alert('Hey!');
-  }
-  
-})
+  })
 }
 
 function frameIt() {}
