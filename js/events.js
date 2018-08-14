@@ -1,7 +1,23 @@
 //define functions here
+function getIt() {
 
-$(document).ready(function(){
+  $(document).on('click', function(key) {
+  if (key.which == 'p'){
+    alert('Hey!');
+  }
+  
+})
+}
 
-// call functions here
+function frameIt() {}
 
-});
+function pressIt() {}
+
+function submitIt() {}
+
+$(document).ready(function() {
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
+})
