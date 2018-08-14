@@ -20,7 +20,9 @@ $("form").on('keydown', function(key) {
 
 }
 
-function submitIt() {}
+function submitIt() {
+  $("form")
+}
 
 $(document).ready(function() {
   getIt();
